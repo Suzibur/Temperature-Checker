@@ -38,7 +38,7 @@
     <script>
         function weatherUpdate(){
             const inputCity = document.getElementById('input-city').value;
-            const link = `http://api.openweathermap.org/data/2.5/weather?q=${inputCity}&appid=ee1c514ddf45c88c76f088a0d21fcabd`;
+            const link = `http://api.openweathermap.org/data/2.5/weather?q=Brahmanbaria&appid=ee1c514ddf45c88c76f088a0d21fcabd`;
             fetch(link)
             .then(response => response.json())
             .then(data => {
